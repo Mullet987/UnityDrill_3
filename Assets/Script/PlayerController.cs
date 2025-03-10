@@ -5,13 +5,14 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float _speed = 5f;
+    [SerializeField] private float _speed = 100f;
+    private bool _isMoving = false;
+    private bool _isAutoMoving = false;
     private GameObject _outlineTarget;
     private InputSystem_Actions _input;
     private NavMeshAgent _agent;
     private Vector3 _moveDirection = Vector3.zero;
-    private bool _isMoving = false;
-    private bool _isAutoMoving = false;
+
     private void Awake()
     {
         _input = new InputSystem_Actions();
