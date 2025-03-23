@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnDisable()
     {
+        _input.Player.ClickLeftButton.performed -= ctx => OnClickInteractNPC();
         _input.Disable();
     }
 
