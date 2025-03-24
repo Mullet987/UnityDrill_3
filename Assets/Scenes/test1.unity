@@ -10617,8 +10617,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 569818132}
   m_HandleRect: {fileID: 569818131}
   m_Direction: 2
-  m_Value: 0.9999997
-  m_Size: 0.7830145
+  m_Value: 1
+  m_Size: 0.79968774
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -16448,6 +16448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemPrefab: {fileID: 720242063399056869, guid: 65ecf285e6b1e9047afa50f46022ca30, type: 3}
   _draggablesTransform: {fileID: 2086184513}
+  _raycaster: {fileID: 1910495862}
 --- !u!1 &1935008184
 GameObject:
   m_ObjectHideFlags: 0

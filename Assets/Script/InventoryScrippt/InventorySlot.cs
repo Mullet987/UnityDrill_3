@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour
 {
-    [SerializeField] private Item _carriedItem;
+    public Item _carriedItem;
 
     private void Awake()
     {
